@@ -1,10 +1,10 @@
-Username = input("กรอกชื่อ : ")
-Password = input("กรอกรหัส : ")
+Username = input("username : ")
+Password = input("password : ")
 if Username == "Korrawit" and Password == "K":
     print("Suscess")
     print("^^^^^^ JunShop ^^^^^^")
     print("---------------------")
-    apple = 30
+    Apple = 30
     Banana = 20
     Mango = 45
     print("Apple-30THB ")
@@ -13,7 +13,7 @@ if Username == "Korrawit" and Password == "K":
     Selected = str(input("SelectedProduct :"))
     if Selected == "Apple":
        Number1  = int(input("Apple Amount : "))
-       Total1   = apple * Number1
+       Total1   = Apple * Number1
        print(Total1,"THB")
        print("Thank for Buying :)")
     elif Selected == "Banana":
