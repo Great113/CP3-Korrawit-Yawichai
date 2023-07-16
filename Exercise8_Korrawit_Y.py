@@ -7,9 +7,10 @@ if Username == "Korrawit" and Password == "K":
     Apple = 30
     Banana = 20
     Mango = 45
-    print("Apple-30THB ")
-    print("Banana-20THB ")
-    print("Mango-45THB ")
+    print("1.","Apple-30THB ")
+    print("2.","Banana-20THB ")
+    print("3.","Mango-45THB ")
+    print("--------------")
     Selected = str(input("SelectedProduct :"))
     if Selected == "Apple":
        Number1  = int(input("Apple Amount : "))
